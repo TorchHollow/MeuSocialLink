@@ -1,0 +1,43 @@
+/*Feito mobile first*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: #FFFFFF;
+    --fonte-secundario: #919193;
+    --gradiente: background-image: linear-gradient(#5578BA, #40A376);
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    background-image: url(./Imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+.container {
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 35px;
+    color: var(--fonte-principal);
+}
+
+.container p{
+    color: var(--fonte-secundario);
+}
+
+.container img {
+    width: 180px;
+    border-radius: 100%;
+}
